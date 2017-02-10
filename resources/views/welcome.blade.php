@@ -11,11 +11,10 @@
 
     </head>
     <body>
-        {{--We comments new updates to this file--}}
         <div id="app">
             <example></example>
         </div>
-
+        
         <script src="public/js/app.js"></script>
     </body>
 </html>
