@@ -8,7 +8,6 @@
         <title>Laravel</title>
         <link rel="stylesheet" href="public/css/app.css">
 
-
     </head>
     <body>
         {{--We comments new updates to this file--}}
