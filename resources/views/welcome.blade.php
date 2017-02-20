@@ -6,15 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-        <link rel="stylesheet" href="public/css/app.css">
 
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
     <body>
-        {{--We comments new updates to this file--}}
-        <div id="app">
-            <example></example>
+        <div class="flex-center position-ref full-height">
+            <div id="app">
+                <example></example>
+            </div>
         </div>
 
-        <script src="public/js/app.js"></script>
+        <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
